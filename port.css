@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+
+
+header {
+    padding: 20px 0;
+    height: 700px;
+    border-bottom: 1px solid;
+    background: #c6c2c236;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    box-shadow: 0px 5px 12px -5px black;
+}
+
+.logo {
+    witdh: 20%;
+}
+
+
+.logo img {
+    width: 45px;
+    margin: 8px 0;
+}
+
+.navBar {
+    width: 40%;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: balck;
+
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar li {
+    list-style: none;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.navBar a:hover {
+    color: red !important;
+}
+
+.searchBar input[type="sreach"] {
+    padding: 2px 50px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    box-shadow: 0px 0px 3px 0px black;
+    border-radius: 4px;
+}
+
+/* main */
+
+/* introduction */
+
+.intro {
+    height: 665px;
+    text-align: center;
+    overflow: hidden;
+    width: 90%;
+    align-items: center;
+    display: flex;
+}
+
+.inroSub {
+    width: 80%;
+    height: 74%;
+    box-shadow: 0px 5px 12px -5px black;
+    border-radius: 30px;
+}
+
+.intro h1 {
+    text-transform: capitalize;
+    font-size: 90px;
+    font-family: math;
+}
+
+.hello {
+    color: #087e8b;
+    margin: 60px 0 0px;
+}
+
+.wlc {
+    color: #f26600;
+}
+
+.article {
+    width: 600px;
+    font-size: 20px;
+    margin-top: 70px;
+    color: #555555;
+}

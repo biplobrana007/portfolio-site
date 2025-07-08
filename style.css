@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    background-color: #F7F7F7;
+}
+
+.container {
+    width: auto;
+    height: 800px;
+    justify-items: center;
+    border-bottom: 1px solid rgb(216, 215, 215);
+
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #005891;
+    padding: 50px;
+
+}
+
+
+
+.navbar {
+    text-align: center;
+}
+
+.shoot {
+    color: #228743;
+    margin: -25px;
+    display: inline-block;
+}
+
+.navbar ul {
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 500px;
+    /* border: 1px solid hsl(0, 5%, 84%); */
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 12px -5px black;
+
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    background: none;
+
+
+
+}
+
+
+
+.searchBar {
+    overflow: hidden;
+    box-shadow: 0px 5px 12px -5px black;
+}
+
+.searchBar input {
+    border: none;
+
+
+}
+
+.searchBar input[type] {
+    font-size: 20px;
+    padding: 5px 100px 5px 20px;
+    text-transform: capitalize;
+}
+
+
+
+
+.places {
+
+    padding: 100px 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(216, 215, 215);
+
+
+}
+
+.placeHead {
+    display: flex;
+    font-size: 50px;
+    text-transform: capitalize;
+    justify-content: center;
+    margin: 0 0 70px 0;
+
+}
+
+.placeHead span {}
+
+.first3box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.second3box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxText {
+    justify-items: center;
+}
+
+.country {
+    color: black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid hsl(0, 5%, 84%); */
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 5px 12px -5px black;
+
+
+}
+
+
